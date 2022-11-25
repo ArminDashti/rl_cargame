@@ -193,34 +193,6 @@ while True:
         break
 # torch.tensor([next_state])
 # net(state[0], model="online")[np.arange(0, batch_size), action[0]]
-# from sklearn.preprocessing import StandardScaler
-# data = [[2, 2], 
-#         [10, 3], 
-#         [7, 5], 
-#         [50, 50]]
-# scaler = StandardScaler()
-# print(scaler.fit(data))
-# print(scaler.transform(data))
-
-# from sklearn.preprocessing import MinMaxScaler
-# min_max_scaler = MinMaxScaler()
-# min_max_scaler.fit_transform(data)
-
-# from sklearn.preprocessing import RobustScaler
-# transformer = RobustScaler().fit(data)
-# transformer.transform(data)
-
-# from sklearn.preprocessing import normalize
-# normalize(data, norm='l2')
-
-# from sklearn.preprocessing import Normalizer
-# transformer = Normalizer().fit(data)
-# transformer.transform(data)
-
-# from sklearn.preprocessing import KBinsDiscretizer
-# est = KBinsDiscretizer(n_bins=4, encode='ordinal', strategy='uniform')
-# est.fit(data)
-# est.transform(data)
 #%%
 env.reset()[0]
 #%%
